@@ -18,7 +18,7 @@ function viewCart() {
     return "Your shopping cart is empty."
 } else if(cart.length === 1) {
     `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`
-}else if(cartt.Length === 2){
+}else if(cart.Length === 2){
   return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at $${cart[1].itemPrice}.`
 }
 }
